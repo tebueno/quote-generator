@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+ install:
+   commands:
+     - npm install
+ pre_build:
+   commands:
+     - npm build
+ build:
+   commands:
+     - aws s3 sync --delete . "s3://myfreecodecamp"
+ post_build:
+   commands:
+     - echo "post_build step"
