@@ -8,17 +8,17 @@ This app will retrieve a new random quote each click of the button. You can also
 
 ### Run locally
 
-Clone Repo:
+#### Clone Repo:
 
-git clone https://github.com/tebueno/quote-generator
+`git clone https://github.com/tebueno/quote-generator`
 
-Install Dependencies:
+#### Install Dependencies:
 
-npm i
+`npm i`
 
-Run locally:
+#### Run locally:
 
-npm start
+`npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
