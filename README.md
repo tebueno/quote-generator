@@ -3,7 +3,7 @@
 
 This app will retrieve a new random quote each click of the button. You can also share the quote via Twitter:
 
-
+(https://github.com/tebueno/quote-generator/blob/master/src/assets/app_screenshot.png)
 
 
 ### Run locally
