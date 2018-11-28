@@ -5,10 +5,10 @@ phases:
      - npm install
  pre_build:
    commands:
-     - npm build
+     - npm run build
  build:
    commands:
-     - aws s3 sync --delete . "s3://myfreecodecamp"
+     - npm run deploy
  post_build:
    commands:
      - echo "post_build step"
